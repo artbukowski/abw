@@ -1,8 +1,10 @@
 <!-- this is a comment to the file -->
+<!-- druga linijka komentarza -->
+
 <?php get_header(); ?>
 <section id="blog">
 			<div class="kolumna">
-			<div class ="kolumna900 kreska_na_dole"></div>       
+			<div class ="kolumna900 kreska_na_dole"></div>
 			<h1 class="single_title"><?php printf( __( 'Archives for %s', 'pilot' ), single_tag_title( '', false ) ); ?></h1>
 			<div class ="kolumna900 kreska_na_dole2 pause30"></div>
 		<?php
@@ -14,7 +16,7 @@
 				?>
 		<?php if ( have_posts() ) : ?>
 		<?php
-		
+
 					while ( have_posts() ) : the_post();
 						get_template_part( 'blog2' );
 					endwhile;
