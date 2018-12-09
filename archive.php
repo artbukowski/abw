@@ -1,3 +1,4 @@
+<!-- this is a comment to the file -->
 <?php get_header(); ?>
 <section id="blog">
 			<div class="kolumna">
